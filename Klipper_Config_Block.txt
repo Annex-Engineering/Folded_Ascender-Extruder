@@ -1,0 +1,28 @@
+These are good starting settings for the extruder, i have copy pasted my entire block out of my klipper config below:
+
+TLDR: 1/4 MS, 2766 Steps per MM, 130mm/s acceleration, low jerk (klipper doesnt use jerk), 0.28A RMS (RMS IS IMPORTANT)
+
+
+# Extruder0
+[extruder]
+#40:1 brass gears, 1/4 MS
+step_distance: 0.00036153289
+
+#0.4mm Nozzle
+nozzle_diameter: 0.400
+filament_diameter: 1.750	
+max_extrude_only_distance: 1400.0
+max_extrude_only_velocity: 30.0
+max_extrude_only_accel: 130.0
+max_extrude_cross_section: 20000.0
+
+[tmc2660 extruder]
+microsteps: 4
+interpolate: False
+run_current: 0.28
+
+#Firmware Retraction
+[firmware_retraction]
+retract_length: 0.6
+retract_speed: 30
+unretract_speed: 30
