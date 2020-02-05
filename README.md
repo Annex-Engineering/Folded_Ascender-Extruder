@@ -1,4 +1,4 @@
-# Ascender Extruder - Release 1 - Alpha 1
+# Ascender Extruder - Release 1 - Alpha 2
 
 ![Image of Ascender Extruder](https://github.com/Annex-Engineering/Ascender-Extruder/blob/master/Renders/Ascender_Front_A1.JPG?raw=true?raw=true)
 ![Image of Ascender Extruder](https://github.com/Annex-Engineering/Ascender-Extruder/blob/master/Renders/Ascender_Rear_A1.JPG?raw=true?raw=true)
