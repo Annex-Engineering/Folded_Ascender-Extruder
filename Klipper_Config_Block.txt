@@ -5,24 +5,24 @@ TLDR: 1/4 MS, 2766 Steps per MM, 130mm/s acceleration, low jerk (klipper doesnt 
 
 # Extruder0
 [extruder]
-#40:1 brass gears, 1/4 MS
-step_distance: 0.00036153289
+#40:1 brass gears, Full Steps
+step_distance: 0.00144613156
 
 #0.4mm Nozzle
 nozzle_diameter: 0.400
 filament_diameter: 1.750	
-max_extrude_only_distance: 1400.0
+max_extrude_only_distance: 200.0
 max_extrude_only_velocity: 30.0
-max_extrude_only_accel: 130.0
-max_extrude_cross_section: 20000.0
+max_extrude_only_accel: 110.0
+max_extrude_cross_section: 20000.0 #this is for KISSlicer Only
 
 [tmc2660 extruder]
-microsteps: 4
+microsteps: 1
 interpolate: False
-run_current: 0.28
+run_current: 0.20
 
 #Firmware Retraction
 [firmware_retraction]
-retract_length: 0.6
+retract_length: 0.5
 retract_speed: 30
 unretract_speed: 30
