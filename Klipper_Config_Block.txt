@@ -1,6 +1,6 @@
-These are good starting settings for the extruder, i have copy pasted my entire block out of my klipper config below:
+These are good starting settings for the extruder, I have copy pasted my entire block out of my klipper config below:
 
-TLDR: 1/4 MS, 2766 Steps per MM, 130mm/s acceleration, low jerk (klipper doesnt use jerk), 0.28A RMS (RMS IS IMPORTANT)
+TLDR: 1 MS, 691 Steps per mm, 110mm/s acceleration, low jerk (klipper doesnt use jerk), 0.20A RMS (RMS IS IMPORTANT)
 
 
 # Extruder0
