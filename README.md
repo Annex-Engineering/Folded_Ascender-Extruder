@@ -7,7 +7,7 @@ This is the Ascender Extruder. It's a dual geared hobbed filament extruder desig
 
 Video of the pre-alpha printing: https://youtu.be/9iA55Um66Vs and with the larger motor: https://www.youtube.com/watch?v=zHJaDTuOghM&lc=
 
-Starting eSTEPs at 1/4 microstepping with a 0.9deg stepper are approximate 2766 steps per mm, pressure advance is not currently recommended. Please see the Klipper Config Block for further settings and information.
+Starting eSTEPs at full microstepping with a 0.9deg stepper are approximate 691 steps per mm, pressure advance is not currently recommended. Please see the Klipper Config Block for further settings and information.
 
 Our discord server can be found here: https://discord.gg/MzTR3zE
 
