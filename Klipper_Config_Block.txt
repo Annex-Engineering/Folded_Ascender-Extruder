@@ -23,6 +23,7 @@ run_current: 0.20
 
 #Firmware Retraction
 [firmware_retraction]
-retract_length: 0.5
-retract_speed: 30
-unretract_speed: 30
+retract_length: 0.25
+retract_speed: 15
+unretract_speed: 15
+unretract_extra_length: 0.025
