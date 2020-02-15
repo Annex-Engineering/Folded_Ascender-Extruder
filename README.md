@@ -1,7 +1,7 @@
 # Ascender Extruder - Release 1
 
-![Image of Ascender Extruder](https://github.com/Annex-Engineering/Ascender-Extruder/blob/master/Renders/Ascender_Front_A1.JPG?raw=true?raw=true)
-![Image of Ascender Extruder](https://github.com/Annex-Engineering/Ascender-Extruder/blob/master/Renders/Ascender_Rear_A1.JPG?raw=true?raw=true)
+![Image of Ascender Extruder](https://github.com/Annex-Engineering/Ascender-Extruder/blob/master/Renders/Ascender_Front.JPG?raw=true?raw=true)
+![Image of Ascender Extruder](https://github.com/Annex-Engineering/Ascender-Extruder/blob/master/Renders/Ascender_Rear.JPG?raw=true?raw=true)
 
 This is the Ascender Extruder. It's a dual geared hobbed filament extruder designed for use with any printer. It features a 40:1 worm gear driven design to provide torque while being extremely quiet and light. You must perform your own tuning to get the best results.
 
