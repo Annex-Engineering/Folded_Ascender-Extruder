@@ -13,7 +13,7 @@ nozzle_diameter: 0.400
 filament_diameter: 1.750	
 max_extrude_only_distance: 200.0
 max_extrude_only_velocity: 30.0
-max_extrude_only_accel: 110.0
+max_extrude_only_accel: 100.0
 max_extrude_cross_section: 20000.0 #this is for KISSlicer Only
 
 [tmc2660 extruder]
@@ -23,7 +23,7 @@ run_current: 0.20
 
 #Firmware Retraction
 [firmware_retraction]
-retract_length: 0.25
-retract_speed: 15
-unretract_speed: 15
+retract_length: 0.45
+retract_speed: 20
+unretract_speed: 20
 unretract_extra_length: 0.025
