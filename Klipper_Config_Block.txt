@@ -16,14 +16,20 @@ max_extrude_only_velocity: 30.0
 max_extrude_only_accel: 100.0
 max_extrude_cross_section: 20000.0 #this is for KISSlicer Only
 
+#settings for brass gear set
 [tmc2660 extruder]
 microsteps: 1
 interpolate: False
 run_current: 0.20
+
+#settings for KHK gear set
+[tmc2660 extruder]
+microsteps: 1
+interpolate: False
+run_current: 0.15
 
 #Firmware Retraction
 [firmware_retraction]
 retract_length: 0.45
 retract_speed: 20
 unretract_speed: 20
-unretract_extra_length: 0.025
