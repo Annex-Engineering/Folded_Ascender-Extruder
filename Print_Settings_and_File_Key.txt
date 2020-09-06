@@ -3,10 +3,12 @@ Accent Color: [a]_ at start of file name
 Quantity Required: _x# near end of file name
 File Revision: _Rev# at end of file name
 
-Approved FDM Materials: ABS, ABS+, or 3DXTech Carbon Nylon
-Layer Height: 0.2mm
-Extrusion Width: Forced 0.4mm
-Infill Percentage: 40% minimum
-Infill Type: Grid, Gyroid, Honeycomb, Triangle or Cubic
-Wall Count: 4 minimum
+Approved FDM Materials: ABS, ABS+
+Layer Height: 0.1mm or 0.15mm, 0.2mm First Layer
+Extrusion Width: 0.4mm to 0.45mm
+Infill Percentage: 75% minimum
+Infill Type: Triangle
+Wall Count: 2
 Solid Top/Bottom Layers: 5 minimum
+
+For ABS, Scale to 101.2%, for PLA, Print as is

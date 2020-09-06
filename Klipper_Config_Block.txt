@@ -1,35 +1,23 @@
 These are good starting settings for the extruder, I have copy pasted my entire block out of my klipper config below:
 
-TLDR: 1 MS, 691 Steps per mm, 100mm/s acceleration, low jerk (klipper doesnt use jerk), 0.20A/0.15A RMS (RMS IS IMPORTANT)
-
-
 # Extruder0
 [extruder]
-#40:1 gear set, Full Steps
-step_distance: 0.00144613156
+#40:1 gear set, 1/4 Microstepping
+step_distance: 0.0007325
 
 #0.4mm Nozzle
 nozzle_diameter: 0.400
 filament_diameter: 1.750	
 max_extrude_only_distance: 200.0
 max_extrude_only_velocity: 30.0
-max_extrude_only_accel: 100.0
+max_extrude_only_accel: 800
+pressure_advance: 0.0725
 max_extrude_cross_section: 20000.0 #this is for KISSlicer Only
 
-#settings for brass gear set
-[tmc2660 extruder]
-microsteps: 1
-interpolate: False
-run_current: 0.20
-
-#settings for KHK gear set
-[tmc2660 extruder]
-microsteps: 1
-interpolate: False
-run_current: 0.15
-
-#Firmware Retraction
-[firmware_retraction]
-retract_length: 0.45
-retract_speed: 20
-unretract_speed: 20
+#settings for LDO 1.8 Deg Stepper
+[tmc2209 extruder]
+microsteps: 4
+interpolate: true
+run_current: 0.300
+hold_current: 0.300
+stealthchop_threshold: 0
