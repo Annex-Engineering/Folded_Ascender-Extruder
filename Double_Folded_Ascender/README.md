@@ -31,3 +31,5 @@ No, I don't know why KHK sells a 2 start worm but not the matching wheel for 5mm
 Our discord server can be found here: https://discord.gg/MzTR3zE
 
 The BOM and Sourcing Guide for this product can be found here: https://docs.google.com/spreadsheets/d/1O3eyVuQ6M4F03MJSDs4Z71_XyNjXL5HFTZr1jsaAtRc/edit?usp=sharing
+
+![Folded Ascender](Images/double_folded_ascender.png)
