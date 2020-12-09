@@ -1,6 +1,6 @@
 # Double Folded Ascender Extruder - Release 1
 
-This is the Folded AsceDouble Folded Ascender is the next mutation of the "Ascender" worm drive extruder family, boasting better performance across the board.  
+This is the Double Folded Ascender is the next mutation of the "Ascender" worm drive extruder family, boasting better performance across the board.  
 OG Ascender and Folded Ascender are both geared at 40:1, which limits the usable range of the extruder due to forcing the motor into a high speed, low torque range.
 Double Folded Ascender cuts the ratio down to 20:1, and therefore can keep up with other extruders with higher acceleration, Pressure Advance, and feed rate.
 A well-built Double Folded Ascender should be able to run easily at 40mm^3/s, with 1.5k accel, and a PA value of 0.01 (klipper). Motor current can stay at 300-350mA.
