@@ -1,24 +1,19 @@
-Klipper config blocks from K1 (Fysetc S6 2.0 + BTT EXP_MOT):
+These are good starting settings for the extruder, I have copy pasted my entire block out of my klipper config below:
 
-[extruder] #Y-Mot
-step_pin: PD8
-dir_pin: PB12
-enable_pin: !PD9
-step_distance: 0.001400 #double ass
-nozzle_diameter: 0.600
-pressure_advance: 0.008 #double ass
-pressure_advance_smooth_time: 0.04
-#####heater stuff here #######
-max_extrude_only_distance: 1400.0
-max_extrude_only_velocity: 120.0
-max_extrude_only_accel: 1500.0
-max_extrude_cross_section: 20000.0
-
-[tmc2209 extruder] #Y mot
-uart_pin: PC4
-#tx_pin: PE14  #S6 req jumper for BTT 2209 pins 4>5
+# Extruder0
+[extruder]
+rotation_distance: 22.67895 #for 5mm Shaft Driven Bondtech gearsets
+gear_ratio: 20:1
 microsteps: 4
-interpolate: true
-run_current: 0.3
-hold_current: 0.3
-sense_resistor: 0.110
+full_steps_per_rotation: 200 #1.8deg Motor
+
+pressure_advance: 0.0725
+max_extrude_only_distance: 1400.0
+max_extrude_only_velocity: 75.0
+max_extrude_only_accel: 1500
+
+#settings for NEMA14 Stepper
+[tmc2209 extruder]
+interpolate: True
+run_current: 0.30 #up to 0.35A
+stealthchop_threshold: 0

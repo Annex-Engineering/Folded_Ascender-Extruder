@@ -2,22 +2,18 @@ These are good starting settings for the extruder, I have copy pasted my entire 
 
 # Extruder0
 [extruder]
-#40:1 gear set, 1/4 Microstepping
-step_distance: 0.0007325
-
-#0.4mm Nozzle
-nozzle_diameter: 0.400
-filament_diameter: 1.750	
-max_extrude_only_distance: 200.0
-max_extrude_only_velocity: 30.0
-max_extrude_only_accel: 800
-pressure_advance: 0.0725
-max_extrude_cross_section: 20000.0 #this is for KISSlicer Only
-
-#settings for LDO 1.8 Deg Stepper
-[tmc2209 extruder]
+rotation_distance: 22.67895 #for 5mm Shaft Driven Bondtech gearsets
+gear_ratio: 40:1
 microsteps: 4
-interpolate: true
-run_current: 0.300
-hold_current: 0.300
+full_steps_per_rotation: 200 #1.8deg Motor
+
+pressure_advance: 0.0725
+max_extrude_only_distance: 1400.0
+max_extrude_only_velocity: 75.0
+max_extrude_only_accel: 1500
+
+#settings for NEMA14 Stepper
+[tmc2209 extruder]
+interpolate: True
+run_current: 0.30 #up to 0.35A
 stealthchop_threshold: 0
