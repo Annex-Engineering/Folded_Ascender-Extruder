@@ -19,6 +19,6 @@ This extra fold also comes with a drawback.  Double Folded Ascender is NOT mirro
  - For running above ~20mm^3/s, drilling and tapping the wheel for an m3 or m4 set screw (4-5mm length) is required to prevent slippage. Recommended to do in all cases.
  - Do not mirror parts in slicer.
  - This is an early version, bootstrapped off of a previous version.  Things will change significantly later, but mounting pattern should remain the same going forward.
- - No, I don't know why KHK sells a 2 start worm but not the matching wheel for 5mm bore, 4No, I don't know why KHK sells a 2 start worm but not the matching wheel for 5mm bore in a 40t variant.
+ - No, I don't know why KHK sells a 2 start worm but not the matching wheel for 5mm bore, 40t variant.
 
 ![Folded Ascender](Images/double_folded_ascender.png)
