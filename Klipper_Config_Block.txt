@@ -1,0 +1,19 @@
+These are good starting settings for the extruder, I have copy pasted my entire block out of my klipper config below:
+
+# Ascender config block
+[extruder]
+rotation_distance: 22.39 #for 5mm Shaft Driven Bondtech gearsets
+gear_ratio: 20:1
+microsteps: 4
+full_steps_per_rotation: 200 #1.8deg Motor
+
+pressure_advance: 0.007 # Configure based on klipper docs. This is a good starting point at default smoothing time
+max_extrude_only_distance: 1400.0
+max_extrude_only_velocity: 75.0
+max_extrude_only_accel: 1500
+
+#settings for NEMA14 Stepper
+[tmc2209 extruder]
+interpolate: True
+run_current: 0.30 # up to 0.35A
+stealthchop_threshold: 0
